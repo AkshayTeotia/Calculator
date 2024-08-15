@@ -1,0 +1,71 @@
+body{
+    width:100vw;
+    background-color:rgba(44, 105, 148, 0.573);
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    
+}
+
+#Calculator{
+    border-radius: 12px 12px 0px 0px ;
+    margin-top: 50px;
+    height:528px;
+    background-color: rgb(254, 252, 252);
+    border: 2px solid rgb(115, 136, 181);
+    display:grid;
+    
+    grid-template-columns:80px 80px 80px 80px;
+}
+.grid-items{
+    
+    height:80px;
+    color:rgb(44, 104, 148);
+    /* background: conic-gradient(white,grey,white,grey,white,grey,white,grey,white,grey,white,grey,white,grey,white,grey,white,grey,white,grey,white,grey,white,grey,white,grey,white,grey,white,grey,white,grey,white,grey,white,grey,white,grey,white,grey,white,grey,white,grey,white,grey,white,grey,white,grey,white,grey,white,grey,white,grey,white,grey,white,grey,white,grey,white,grey,white,grey,white,grey,white,grey,white,grey,white,grey,white,grey,white,grey,white,grey,white,grey,white,grey,white,grey,white,grey,white,grey,white,grey,white,grey,white,grey,white,grey,white,grey,white,grey,white,grey,white,grey,white,grey,white,grey,white,grey,white,grey,white,grey,white,grey,white,grey);
+    */ border:1px solid rgb(44, 104, 148);  
+    
+    font-size: 30px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+#result{
+    border-radius: 10px 10px 0px 0px;
+    grid-column-start: 1;
+    grid-column-end: 5;
+    background-color:rgb(44, 104, 148);
+    width: auto;
+    height: 120px;
+    color:white;
+    text-align: right;
+    align-items: end;
+    display: flex;
+    justify-content: flex-end;
+    padding-right: 20px;
+    font-size: 30px;
+    overflow-x:auto;
+    
+    
+    
+}
+#item24{
+    /* background:linear-gradient(black,black); */
+    color:rgb(44, 104, 148);
+}
+.grid-items:active{
+    color: white;
+    background-color:rgb(44, 104, 148);
+
+}
+#ans{
+    background-color:rgb(44, 104, 148);
+    color:white;
+    height: auto;
+    grid-area: 5/4/7/5;
+}
+#ans:active{
+    background-color: white;
+    color:rgb(44, 104, 148);
+
+}
